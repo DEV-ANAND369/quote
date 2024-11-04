@@ -1,16 +1,16 @@
-/* style.css */
+/* General styles */
 body {
     text-align: center;
     font-family: 'Poppins', sans-serif; /* More modern font */
     background: linear-gradient(135deg, #f5f7fa 0%, #c3c3e2 100%); /* Gradient background */
     min-height: 100vh;
     margin: 0;
-    padding: 50px;
+    padding: 20px; /* Reduced padding for smaller screens */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    overflow: auto; /* Allow scrolling */
 }
 
 #quote {
@@ -96,5 +96,22 @@ body {
         top: 100%;
         transform: rotate(360deg);
         opacity: 0;
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    #quote {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+        padding: 20px; /* Adjust padding */
+    }
+
+    #new-quote {
+        padding: 10px 20px; /* Adjust button padding */
+        font-size: 1rem; /* Smaller button font size */
+    }
+
+    body {
+        padding: 10px; /* Reduce padding for mobile */
     }
 }
