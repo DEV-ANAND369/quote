@@ -9,7 +9,7 @@ The **Random Quote Generator** is a simple web application that generates random
 
 ### Live Demo
 
-You can view the live demo of the Random Quote Generator [here](https://quotesg.netlify.app).
+You can view the live demo of the Random Quote Generator [here](https://quoteon.netlify.app).
 
 ## Features
 
